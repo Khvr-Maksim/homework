@@ -1,0 +1,27 @@
+.sometext {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+    line-height: 30px;
+}
+.zahert {
+    font-family: 'Times New Roman';
+text-decoration: line-through;
+}
+.centr {
+    text-transform: uppercase;
+    text-align: center;
+}
+.block {
+    word-spacing: 30px;
+    color: #8a2be2;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+.block1 {
+    letter-spacing: 5px;  
+    text-decoration: underline;
+    text-decoration-style:double ;
+}
