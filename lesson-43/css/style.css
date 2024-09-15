@@ -1,0 +1,234 @@
+body {
+    box-sizing: border-box;
+    background-color: #181E34;
+    font-family: "Monserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.img {
+    margin: 30px 0px 36px;
+    height: 48px;
+}
+
+.container {
+    max-width: 930px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-items {
+    margin-right: 30px;
+}
+
+.header-button {
+    border-radius: 100px;
+    background: #ffffff;
+    padding: 14px 30px;
+    color: #0000ff;
+    font-weight: 500;
+}
+
+/* ============================================================== */
+
+.section-one {
+    background: url("../img/background.jpeg") 10% 50% / cover no-repeat;
+    padding: 120px 0;
+}
+
+.section-inner {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.inner-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 436px;
+}
+
+.paragrapf {
+    margin-bottom: 15px;
+}
+
+span {
+    color: #01a2cb;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.buttoms {
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+}
+
+.inner-button-one,
+.inner-button-two {
+    display: flex;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, hsl(192, 100%, 40%), rgb(39, 102, 174) 100%);
+    padding: 18px 30px;
+}
+
+.inner-button-one {
+    margin-bottom: 10px;
+}
+
+.inner-button-two {
+    justify-content: center;
+
+}
+
+.icon {
+    margin-left: 4px;
+}
+
+/* ============================================================== */
+.section-two {
+    padding: 120px 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.two-text {
+    text-align: center;
+    margin-bottom: 60px;
+    max-width: width 513px;
+    margin: 0 auto 60px;
+}
+
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    padding-bottom: 30px;
+}
+
+.cards-flex-items {
+    margin-bottom: 28px;
+    padding: 0 14px;
+    flex: 0 0 25%;
+}
+
+.cards-flex-inner {
+    border: 2px solid #0a3753;
+    border-radius: 16px;
+    box-shadow: 4px 4px 13px 0px #050d29c2;
+    background: #0e5c8b;
+    padding: 28px;
+}
+
+.card-flex-title {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card-flex-text {
+    text-align: center;
+}
+
+.flex-button {
+    display: block;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 100px;
+    background: linear-gradient(180.00deg, hsl(192, 100%, 40%), rgb(39, 102, 174) 100%);
+    padding: 18px 30px;
+    max-width: 436px;
+    margin: 0 auto;
+}
+
+/* ========================================== */
+.footer {
+    border-top: 1px solid #323952;
+    pad: 60px 0;
+}
+
+.fotter-inner {
+    display: flex;
+}
+
+.footer-desc {
+    max-width: 267px;
+    margin-right: auto;
+}
+
+.footer-desc img {
+    margin-bottom: 15px;
+}
+
+.footer-col {
+    max-width: 204px;
+    height: 100%;
+}
+
+.footer-col-margin {
+    margin-right: 28px;
+}
+
+.footer-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+.fot-text {
+    margin-bottom: 10px;
+}
