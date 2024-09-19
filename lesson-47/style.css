@@ -1,0 +1,28 @@
+table {
+    border: 2px solid #121e41;
+    }
+thead {
+    background: #1ecf1e;
+    color: red;
+}
+tbody{
+    background: linear-gradient(90.00deg, hsl(120, 78%, 70%),hsl(0, 0%, 100%) 70%)
+}
+tfoot {
+    background: linear-gradient(17590.00deg, rgba(233, 99, 99, 0.493),rgba(201, 244, 75, 0.696) 90%);
+}
+tr,
+td,
+th,
+caption {
+    border: 1px solid #000;
+}
+.tom{
+    color: #d21f1c;
+}
+.cuc{
+    color: #053b05;
+}
+.carr{
+    color: #ff7700;
+}

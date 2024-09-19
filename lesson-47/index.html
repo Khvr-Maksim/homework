@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <table>
+        <caption>
+            Заготовка овощей
+        </caption>
+        <thead>
+            <tr>
+                <th>
+                    Наименование
+                </th>
+                <th>
+                    количество, шт.
+                </th>
+                <th>
+                    общий вес,кг.
+                </th>
+                <th>
+                    оценка урожая.
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tom">
+                    Помидоры
+                </td>
+                <td>
+                    23
+                </td>
+                <td rowspan="2">
+                    5,6
+                </td>
+                <td>
+                    отлично
+                </td>
+
+            </tr>
+            <tr>
+                <td class="cuc">
+                    Огурцы
+                </td>
+                <td>
+                    45
+                </td>
+                <td>
+                    отлично
+                </td>
+
+            </tr>
+            <tr >
+                <td class="carr">
+                    Морковь
+                </td>
+                <td>
+                    12
+                </td>
+                <td>
+                    2,2
+                </td>
+                <td>
+                    удовлетворительно
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+<tr>
+    <td >Общий вывод по урожаю</td>
+    <td colspan="3"> В общем неплохо, но могло быть лучше</td>
+    
+</tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
