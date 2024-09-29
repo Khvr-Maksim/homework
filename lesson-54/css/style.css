@@ -1,0 +1,30 @@
+body {
+    background: #262628;
+}
+.text {
+    font-family: 'Arial';
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+}
+.block{
+    display: flex;
+    min-height: 100px;
+    margin: top 100px; 
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+.block__lap{
+    display: flex;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position:absolute;
+    bottom: 50px;
+    left: 10%;
+}
