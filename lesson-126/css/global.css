@@ -1,0 +1,210 @@
+:root {
+    --general-text: #312C27;
+    --accent-text: #1F1711;
+    --accent-text-2: #CEAAD0;
+    --general-bg: #FFF9F4;
+    --accent-bg: #FFE0CB;
+    --accent-color: #FFA55C;
+    --input-color: #ac907a;
+    --transition: all .5s;
+    --border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 5vw;
+}
+
+.body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.body--opened-menu {
+    overflow: hidden;
+}
+
+.body--opened-modal {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: url("../img/decor/background.png") 50% 100%/ cover no-repeat;
+
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main__about {
+    padding: 140px 0;
+}
+
+.main__program,
+.main__gallery,
+.main__testimonials {
+    padding-bottom: 140px;
+}
+
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.title {
+    font-family: 'Gabriola';
+    font-size: 74px;
+    font-weight: 400;
+    line-height: 82%;
+    color: var(--accent-text);
+}
+
+.button {
+    height: 62px;
+    padding: 3px 15px;
+    background: var(--accent-color);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--general-text);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.button:hover {
+    background: #FF9138;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.272);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .6s;
+    padding: 15px;
+}
+
+.body--opened-modal .modal {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal__window {
+    background: var(--general-bg);
+    border-radius: var(--border-radius);
+    position: relative;
+    padding: 0px 60px 60px;
+    max-width: 428px;
+}
+
+.modal__cancel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal__cancel path {
+    transition: var(--transition);
+}
+
+.modal__cancel:hover path,
+.modal__cancel:hover rect {
+    stroke: var(--input-color);
+}
+
+.modal__img {
+    margin: -65px 0px 15px 13px;
+    width: 100%;
+}
+
+
+.modal__title {
+    color: var(--accent-text);
+    font-family: 'Gabriola';
+    font-size: 42px;
+    line-height: .9;
+    margin-bottom: 10px;
+}
+
+.modal__text {
+    margin-bottom: 30px;
+}
+
+.modal__form {}
+
+.modal__form-label {
+    margin-bottom: 10px;
+}
+
+.field {
+    position: relative;
+    display: block;
+}
+
+.field span {
+    position: absolute;
+    top: 12px;
+    left: 28px;
+    font-size: 11px;
+    color: var(--input-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+
+.field__input {
+    background: transparent;
+    border: 1px solid var(--input-color);
+    border-radius: 100px;
+    padding: 19px 28px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.field__input:hover {
+    border-color: var(--accent-color);
+}
+
+.field__input::placeholder {
+    color: var(--input-color);
+    transition: var(--transition);
+}
+
+.field__input:hover::placeholder {
+    color: var(--accent-color);
+}
+
+.field__input:focus {
+    padding: 26px 42px 12px 28px;
+}
+
+.field__input:focus+span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.button {
+    width: 100%;
+}
